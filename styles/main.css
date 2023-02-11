@@ -28,7 +28,8 @@ a {
 .photo__top {
     display: flex;
     align-items: center;
-    justify-content: space-between
+    justify-content: space-evenly;
+   
 }
 
 .photo__list {
@@ -889,7 +890,8 @@ input {
 .footer-list {
     padding: 30px 25px;
     display: flex;
-    align-items: center;
+    align-items: stretch;
+
     justify-content: space-evenly;
 }
 
@@ -924,6 +926,7 @@ input {
    width: 170px;
     display: flex;
     align-items: center;
+    
     justify-content: space-between;
     gap: 15px;
 }
